@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-slow-svg-example",
+  "version": "0.0.1",
+  "description": "Puppeteer Slow SVG Example",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "pretest": "./node_modules/eslint/bin/eslint.js .",
+    "test": "mocha --require co-mocha test/*"
+  },
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "author": "Cloudinary",
+  "dependencies": {
+    "puppeteer": "^0.10.2"
+  }
+}
